@@ -22,8 +22,6 @@ public class EntregadorService extends GenericService {
        return repository.save(Entregador);
    }
 
-   
-
    public List<Entregador> listarTodos() {
   
     return repository.findAll();
