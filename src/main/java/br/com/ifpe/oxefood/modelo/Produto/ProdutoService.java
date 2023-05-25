@@ -26,7 +26,7 @@ public class ProdutoService extends GenericService{
   
         return produtoRepository.findAll();
     }
-    
+
     public Produto obterPorID(Long id) {
     
         return produtoRepository.findById(id).get();
